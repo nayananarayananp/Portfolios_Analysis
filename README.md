@@ -252,6 +252,41 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/nayananarayananp/Portfolios_Analysis.git
    7c8f147..d6c0e31  main -> main
 (dev)
+
+### Final changes made
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   risk_return_analysis.ipynb
+        deleted:    terminal_history.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git add *
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git commit -m "Final changes made"
+[main e6b5ea7] Final changes made
+ 1 file changed, 104 insertions(+), 110 deletions(-)
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 94.04 KiB | 6.72 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nayananarayananp/Portfolios_Analysis.git
+   daa8987..e6b5ea7  main -> main
+(dev)
     
     
     
