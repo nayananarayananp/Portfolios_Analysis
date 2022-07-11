@@ -1,0 +1,11 @@
+    1  conda activate dev
+    2  cd Fintech-Workspace/Challenge/Challenge\4
+    3  cd ..
+    4  cd Portfolios_Analysis/
+    5  jupyter lab
+    6  git status
+    7  git add *
+    8  git status
+    9  git commit -m "Updated Code"
+   10  git push
+   11   history 50 > terminal_history.txt

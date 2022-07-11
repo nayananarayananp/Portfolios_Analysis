@@ -209,6 +209,49 @@ $ history 50 > terminal_history.txt
 ```
 Attached to [](./terminal_history.txt)
 
+### Updated the code and added to git
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   risk_return_analysis.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git add *
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   risk_return_analysis.ipynb
+
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git commit -m "Updated Code"
+[main d6c0e31] Updated Code
+ 1 file changed, 134 insertions(+), 150 deletions(-)
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 203.89 KiB | 8.50 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nayananarayananp/Portfolios_Analysis.git
+   7c8f147..d6c0e31  main -> main
+(dev)
     
     
     
