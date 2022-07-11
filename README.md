@@ -156,6 +156,7 @@ Running the program with code completed
 
 
 ### Final commit and push
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -164,18 +165,13 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   README.md
-        modified:   crypto_arbitrage.ipynb
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        terminal_history.txt
+        modified:   risk_return_analysis.ipynb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 (dev)
 nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
 $ git add *
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -183,33 +179,31 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   README.md
-        modified:   crypto_arbitrage.ipynb
-        new file:   terminal_history.txt
+        modified:   risk_return_analysis.ipynb
 
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
-$ git commit -m "Commit anaylsis and updated Readme"
-[main 19f8dd3] Commit anaylsis and updated Readme
- 3 files changed, 3170 insertions(+), 2399 deletions(-)
- rewrite README.md (100%)
- rewrite crypto_arbitrage.ipynb (64%)
- create mode 100644 terminal_history.txt
+
+$ git commit -m "Final commit"
+[main 04228e6] Final commit
+ 2 files changed, 380 insertions(+), 210 deletions(-)
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
 $ git push
-Enumerating objects: 8, done.
-Counting objects: 100% (8/8), done.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
 Delta compression using up to 16 threads
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 429.12 KiB | 18.66 MiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/nayananarayananp/Crypto_Analysis.git
-   98b334f..19f8dd3  main -> main
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.75 KiB | 351.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nayananarayananp/Portfolios_Analysis.git
+   2b10257..04228e6  main -> main
 (dev)
+    
 
 ### Capture terminal history
 ```
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
 $ history 50 > terminal_history.txt
 (dev)
 ```

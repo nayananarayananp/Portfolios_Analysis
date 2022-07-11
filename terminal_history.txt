@@ -1,0 +1,22 @@
+1	cd Fintech-Workspace/Challenge/
+2	conda activate dev
+3	git clone https://github.com/nayananarayananp/Portfolios_Analysis.git
+4	cd Portfolios_Analysis/
+5	ls
+6	git status
+7	git add *
+8	git status
+9	git add .gitignore 
+10	git status
+11	git commit -m "Create Jupyter notebook for  portfolio analysis" 
+12	git push
+13	cd Fintech-Workspace/Challenge/ Portfolio_Analysis/
+14	conda activate dev
+15	jupyter lab
+16	conda activate dev
+17	git status
+18	git add *
+19	git status
+20	git commit -m "Final Commit"
+21	git push
+22	history 50 > terminal_history.txt
